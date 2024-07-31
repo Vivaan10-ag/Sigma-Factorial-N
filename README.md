@@ -11,7 +11,7 @@ def sum_of_total_factorial_series(x):
   return total_sum
 x = int(input("Enter a number to find the factorial of: "))
 y = str(input("Enter a number to find the sum (yes/no): "))
-if y.lower() == "Yes":
+if y.lower() == "yes":
   print("The sum of factorials till", x, "is", sum_of_total_factorial_series(x))
   fact = 1
   if x < 0:
